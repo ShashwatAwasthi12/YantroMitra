@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href='login1.css'>
+</head>
+
+<body>
+    <div>
+        <form action='/submit3' method='POST' enctype="multipart/form-data">
+            <div id='register'>
+                <h1 id='heading'>REGISTER</h1>
+                <label>email id:</label>
+                <input type='email' name='emailid' id='emailid' required>
+                <br>
+                <label>Enter password:</label>
+                <input type="password" name='password' id='password' required>
+                <br>
+                <label>Confirm password:</label>
+                <input type="password" name='cpassword' id='cpassword' required>
+                <br>
+                <label>enter name</label>
+                <input name='name' placeholer='aniket rathod' type='text' required>
+                <br>
+                <label>enter age</label>
+                <input name='age' placeholer='aniket rathod' type='text' required>
+                <br>
+                <label>enter dob</label>
+                <input name='dob' placeholer='aniket rathod' type='date' required>
+                <br>
+                <label>enter qualification</label>
+                <input name='qlf' placeholer='aniket rathod' type='text' required>
+                <br>
+                <label>Upload Image</label>
+                <input type="file" name='image' id='image' required>
+                <br>
+                <button id='signup'>Sign up</button>
+            </div>
+            <a href='/loginsign1' id='sss'>Already have an account? Sign In</a>
+        </form>
+
+    </div>
+</body>
+
+</html>

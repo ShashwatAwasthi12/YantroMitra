@@ -1,0 +1,38 @@
+*{
+    margin:0px;
+    padding:0px;
+    background-color: rgb(203, 203, 221);
+}
+
+#register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:400px;
+    height:600px;
+    padding: 10px;
+    margin-left: 400px;
+   
+}
+
+#heading{
+    text-align: center;
+}
+
+input{
+    background-color:white;
+    border: none;
+    height: 20px;
+}
+
+#signup{
+    font: large;
+    background-color: steelblue;
+    border: none;
+    margin-top: 10px;
+}
+
+#sss{
+    margin-left: 485px;
+    padding: 5px;
+}
